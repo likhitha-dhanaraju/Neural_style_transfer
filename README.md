@@ -3,5 +3,5 @@ Using one image to reflect its artistic style on the contents of the frames in t
 
 ## What it does?
 
-Content image:
-![Content image](https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/reproduction-of-van-goghs-starry-night-malgorzata-pieczonka-pseud-vangocha.jpg)
+An image is produced such that it shows the content of ine image and the featuristic style of the other image.
+![Description](https://storage.googleapis.com/groundai-web-prod/media%2Fusers%2Fuser_14%2Fproject_331179%2Fimages%2Fx2.png)
