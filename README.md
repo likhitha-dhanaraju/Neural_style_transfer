@@ -16,3 +16,42 @@ For the style feature extractor, we extract a number of convolutional layers fro
 
 By using a weighted sum of these costs, we backpropogate and change the pixel values of the image rather than changing the weights of the model.
 
+
+## Using existing models with OpenCV
+
+OpenCV's dnn module is used to load the trained pytorch models and perform inference.</br>
+
+We are using [Johnson et al.](https://github.com/jcjohnson/fast-neural-style) trained models on different style images. This approach uses Faster Neural Style transfer suitable for performing inference on videos. </br>
+
+Use the following keys to change the style of the frames in the video
+- 'n' key for the next style
+- 'p' key for the previous style
+- 'q' key to quit
+
+###### neural_style_transfer_video.py 
+
+This program is used to run inference on custom video. </br> 
+Change the **video_path** and the **models_path** in the program.</br>
+
+###### neural_style_transfer_webcam.py
+
+This program is used to run inference on the webcam. </br>
+Change the **models_path** in the program.</br>
+
+## Training
+
+#### Requirements
+
+1. Tensorflow 1.12 </br>
+2. Numpy </br>
+3. Matplotlib </br>
+4. OpenCV </br>
+
+###### train_style_transfer.py
+To train the model from scratch with your custom style image, run this program by changing the following paths. 
+
+* Content image path.
+* Style image path.
+* Path to save the result image.
+
+You can change the hyperparameters and check out the results too!
