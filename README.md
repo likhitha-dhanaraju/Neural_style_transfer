@@ -4,4 +4,4 @@ Using one image to reflect its artistic style on the contents of the frames in t
 ## What it does?
 
 Content image:
-![Content image](https://miro.medium.com/max/2560/1*yOmBkzDKE6HuWOvrWw1E1Q.jpeg)
+![Content image](https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/reproduction-of-van-goghs-starry-night-malgorzata-pieczonka-pseud-vangocha.jpg)
