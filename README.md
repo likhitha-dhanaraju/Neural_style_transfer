@@ -28,12 +28,12 @@ Use the following keys to change the style of the frames in the video
 - 'p' key for the previous style
 - 'q' key to quit
 
-###### neural_style_transfer_video.py 
+**neural_style_transfer_video.py**
 
 This program is used to run inference on custom video. </br> 
 Change the **video_path** and the **models_path** in the program.</br>
 
-###### neural_style_transfer_webcam.py
+**neural_style_transfer_webcam.py**
 
 This program is used to run inference on the webcam. </br>
 Change the **models_path** in the program.</br>
@@ -47,7 +47,7 @@ Change the **models_path** in the program.</br>
 3. Matplotlib </br>
 4. OpenCV </br>
 
-###### train_style_transfer.py
+**train_style_transfer.py**
 To train the model from scratch with your custom style image, run this program by changing the following paths. 
 
 * Content image path.
